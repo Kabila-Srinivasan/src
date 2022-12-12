@@ -1,0 +1,33 @@
+*{
+    padding:0% ;
+    margin: 0%;
+}
+.b1{
+    padding: 20px; 
+}
+.b2{
+    padding: 20px;
+}
+.b3{
+    padding: 20px;
+}
+.imge{
+    background-image: url("https://res.cloudinary.com/dbxdfqppc/image/upload/v1670667072/sample.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.formi{
+    margin-top: 5%;
+    border: 3px rgba(180, 15, 180, 0.904) solid;
+    margin-left: 37%;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: pink;
+    
+}
+.sigi{
+    padding-left: 13%;
+
+}
+
+

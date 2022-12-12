@@ -1,0 +1,39 @@
+*{
+    padding:0% ;
+    margin: 0%;
+}
+.c1{
+    
+    padding: 15px;
+}; 
+
+
+.c2{
+    padding: 15px;
+}
+.c3{
+    padding: 15px;
+}
+.img{
+    background-image: url("https://res.cloudinary.com/dbxdfqppc/image/upload/v1670667072/sample.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.form{
+    margin-top: 30%;
+    border: 3px rgba(180, 15, 180, 0.904) solid;
+    margin-left: 40%;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: pink;
+    
+}
+.sig{
+    padding-left: 11%;
+
+}
+.for{
+    padding-left: 45%;
+}
+

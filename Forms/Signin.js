@@ -1,41 +1,43 @@
 import  Link  from '@mui/material/Link';
 import React, {useState} from 'react'
-import "./Login.css"
+import "./Signin.css"
 
 
-function Login() {
+function Signin() {
   const [Username,setUsername]=useState('');/*State creation*/
-  const [Password,setPassword]=useState('');
   const [Email,setEmail]=useState('');
+  const [Mobileno,setMobileno]=useState('');
+  const [Password,setPassword]=useState('');
   const [error,setError]=useState(false);
   const formhandler=(event)=>
   {
     event.preventDefault();//For auto submit//
-    if(Username.length===0 && Password.length===0 && Email.length===0)
+    if(Username.length===0 && Password.length===0 && Email.length===0 && Mobileno.length===0)
     {
       setError(true);
     }
     if(Username && Password)
     {
-    const loginObj={
+    const signinObj={
       name:Username,
-      pwd:Password,
-      email:Email
+      email:Email,
+      mobileno:Mobileno,
+      pwd:Password
     }
-    console.log(loginObj);
-    alert(JSON.stringify(loginObj));
+    console.log(signinObj);
+    alert(JSON.stringify(signinObj));
     //axios.post(url/obj)//
     }
   }
   return (
     <div>
-    <div class="img">
-    <div class="log">
-    <h1>Login</h1>
+    <div class="imga">
+    <div class="login">
+    <h1>Sign in</h1>
     </div>
-    <div class="form">
+    <div class="formi">
     <form onSubmit={formhandler}>
-    <div class="c1">
+    <div class="e1">
     <br/>
    Username:<input type="text" placeholder="Username" onChange={(e)=>setUsername(e.target.value)}/>
    <br/><br/>
@@ -43,35 +45,43 @@ function Login() {
    <label style={{color:'red'}}>
    Username is required</label>:""}
    </div>
-    <div class="c2">
+    <div class="e2">
     E-mail-Id: <input type="text" placeholder="Email" on onChange={(e)=>setEmail(e.target.value)}/>
     <br/><br/>
     {error && Email.length===0?
     <label style={{color:'red'}}>
     Email is required</label>:""}
     </div>
-    <div class="c3">
-        Password:<input type="password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)}/>
+    <div class="e3">
+        Mobile-no:<input type="number" placeholder="Number" onChange={(e)=>setMobileno(e.target.value)}/>
+    <br/><br/>
+    {error && Mobileno.length>0 && Mobileno.length<10?
+    <label style={{color:'red'}}>
+    Mobileno must be minimum 10 numbers required</label>:""}
+    </div>
+    <div class="e4">
+        Password: <input type="password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)}/>
     <br/>
     {error && Password.length>0 && Password.length<8?
     <label style={{color:'red'}}>
-    Password must be minimum 8 characters required</label>:""}
-    </div>
-    <div class="for">
-    <Link href='/forgot'>Forgot password</Link>
+    Password must be min 8 characters required</label>:""}
     </div>
     <br/>
     <button type="submit"><h3>Submit</h3></button>
     <br/><br/>
+   
     </form>
     </div>
-    <div class="sig">
+    <div class="sigi">
+    <h4>
     <br/>
-    <Link href="/sign">New User?</Link>
+    Already have an account?
+    <Link href="/">Login</Link>
+    </h4>
     </div>
     </div>
   </div>
   )
 }
 
-export default Login
+export default Signin
