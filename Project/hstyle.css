@@ -1,0 +1,407 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+div.container{
+    color:purple;
+    font-style:oblique;
+    font-family: 'Brush Script MT', cursive;
+    text-align: right; 
+    font-size: 30px;
+    
+} 
+h2{
+    color:rgba(182, 194, 138, 0.993); 
+    font-size:45px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-family:tahoma;
+    text-align:left;
+    font-style: italic; 
+}
+p{
+    
+        color: rgb(255, 255, 255);
+        font-weight: 400px; 
+        font-size: 25px;
+        font-family:Comic Sans MS;
+        line-height:1.6em;
+        letter-spacing: 0.1mm;
+        margin: 7px;
+        text-decoration: underline;
+} 
+a:hover{
+    color: blue;
+}
+a:active{
+    color:green;
+}
+button {
+    background-color: rgba(215, 219, 150, 0.993);
+    border:none;
+    color: rgb(10, 0, 0);
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 50px;
+  } 
+  .bg_image{
+    background-image: url('https://res.cloudinary.com/dfynltsg4/image/upload/v1670604407/samples/landscapes/beach-boat.jpg'); 
+    background-size:cover;
+    height: 100vh;
+    color: #f5f5f5;
+  } 
+  h1{
+    color:rgba(201, 52, 156, 0.795);
+    font-weight: bold;
+    font-family: Copperplate, Papyrus, fantasy; 
+    font-size: 80px;
+    text-align: center;
+    text-shadow: rgb(215, 250, 239) 0 -2px;
+} 
+button:hover{
+        background-color: rgb(255, 163, 163);
+        color: aliceblue;
+}
+p.cls1{
+    color:#000000; 
+    font-size: 25px;
+    line-height:1.6em;; 
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p.cls2{
+    color:#0c0111; 
+    font-size: 25px;
+    line-height:1.6em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+}
+h5{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 128, 23);
+    font-style: normal;
+    text-shadow: rgb(248, 252, 193) 0 -4px;
+} 
+.image{
+    background-image: url('img.jpg'); 
+    background-size:1500px;
+    height: 100vh;
+    color: #f5f5f5;
+  } 
+  .container1 div, .container2 div{
+    border: 100% rgb(245, 244, 244) solid;
+    padding: 5PX;
+    border-radius: 50px;
+} 
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 233, 224);
+} 
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 233, 224);
+    font-size: 78%;
+} 
+
+.c1{
+    flex: 1;
+    order:1;
+    font-size: 14px;
+    text-align: left;
+    font-style: italic;
+    color: rgb(255, 222, 8);
+    background-image: url('temple.jpg');
+    background-size:135%;
+    
+} 
+.c2{
+    flex: 1;
+    order:1;
+    background-color: aqua;
+    text-align: left;
+    font-style: italic;
+    color: rgb(252, 227, 4);
+    background-image: url('hill.jpg');
+    background-size:820px;
+   
+} 
+.c3{
+    flex: 1;
+    order:1;
+    font-size: 14px;
+    text-align: left;
+    color: rgb(40, 253, 2);
+    font-style: italic;
+    background-image: url('beach.jpg');
+    background-size:600px;
+} 
+.c11{
+    flex: 1;
+    order:1;
+    font-size: 14px;
+    text-align: left;
+    font-style: italic;
+    color: rgb(221, 47, 76);
+    background-image: url('cbe.jpg');
+    background-size:177%;
+    
+} 
+.c12{
+    flex: 1;
+    order:1;
+    background-color: aqua;
+    text-align: left;
+    font-style: italic;
+    color: rgb(211, 62, 186);
+    background-image: url('valluar.jpg');
+    background-size:600px;
+    
+   
+} 
+.c13{
+    flex: 1;
+    order:1;
+    font-size: 14px;
+    text-align: left;
+    color: rgb(221, 47, 76);
+    font-style: italic;
+    background-image: url('cochin.jpg');
+    background-size:454px;
+} 
+p.s1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: start;
+    line-height: normal;
+    font-style: normal;
+    font-size: 100%;
+    color: rgb(249, 255, 159);
+} 
+p.s2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: start;
+    line-height: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(254, 255, 186);
+}
+p.price{
+      color:red;
+      font-size:20px;
+      
+} 
+.kc1{ 
+    font-size: 20px;
+    padding: 20px; 
+    
+}
+.kc2{
+    font-size: 20px;
+    padding: 20px;
+}
+.kc3{
+    font-size: 20px;
+    padding: 20px;
+}
+.img{
+    background-image: url("https://res.cloudinary.com/dbxdfqppc/image/upload/v1670667072/sample.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.form{
+    margin-top: 5%;
+    border: 3px rgba(180, 15, 180, 0.904) solid;
+    margin-left: 38%;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: pink;
+    
+}
+.sig{
+    padding-left: 16%;
+
+}
+.for{
+    padding-left: 40%;
+} 
+.login{
+    font-size: 80px;
+}
+.kb button {
+    background-color: rgba(215, 219, 150, 0.993);
+    border:none;
+    color: rgb(10, 0, 0);
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 50px;
+
+  } 
+.kb button:hover{
+    background-color: rgb(255, 163, 163);
+    color: aliceblue;
+  } 
+  .e1{
+    
+    padding: 15px;
+}
+.e2{
+    padding: 15px;
+}
+.e3{
+    padding: 15px;
+}
+.e4{
+    padding: 15px;
+}
+.imga{
+    background-image: url("https://res.cloudinary.com/dbxdfqppc/image/upload/v1670667072/sample.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.formi{
+    margin-top: 1%;
+    border: 3px rgba(180, 15, 180, 0.904) solid;
+    margin-left: 38%;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: pink;
+    
+}
+.sigi{
+    padding-left: 6%;
+
+}
+.loginin
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-left: 2%
+} 
+.b1{
+    font-size: 20px;
+    padding: 15px; 
+}
+.b2{ 
+    font-size: 20px;
+    padding: 20px;
+}
+.b3{
+    font-size: 20px;
+    padding: 20px;
+}
+.imge{
+    background-image: url("https://res.cloudinary.com/dbxdfqppc/image/upload/v1670667072/sample.jpg");
+    background-size: cover;
+    height: 100vh;
+} 
+.formii{
+    margin-top: 2%;
+    border: 3px rgba(180, 15, 180, 0.904) solid;
+    margin-left: 37%;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: pink;
+    
+}
+.sigii{
+    padding-left: 13%;
+}
+.welcome h1{
+    color:rgba(131, 231, 254, 0.795);
+    font-weight: bold;
+    font-family: Century Gothic; 
+    font-size: 100px;
+    text-align: center;
+    text-shadow: rgb(247, 117, 219) 0 -4px;
+    background-color: bisque;
+} 
+.tour{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    
+    
+}
+.h11{
+    background-color: rgb(205, 255, 253);
+}
+.on div{
+    border: 100% rgb(245, 244, 245) solid;
+    padding: 200px;
+    border-radius: 300px;
+} 
+.on{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(205, 255, 253);
+   
+} 
+.d1{
+    flex: 1;
+    order:1;
+    background-image: url('ch2.jpg');
+    background-color: aqua;
+    background-size:130%;
+    
+} 
+.d2{
+    flex: 1;
+    order:1;
+    background-color: aqua;
+    background-image: url('ch.jpg');
+    
+    background-size:630px;
+   
+} 
+.d3{
+    flex: 1;
+    order:1;
+    background-color: aqua;
+    background-image: url('img2.jpg');
+    background-size:460px;
+} 
+.pack{
+    font-size: 30px;
+}
+.tq {
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 400%;
+    color: rgb(114, 7, 181);
+    background-color: rgba(255, 0, 174, 0.473);
+}
+.tqq{
+    padding:100px;
+    font-style: italic;
+    font-size: 40px;
+    font-family: bold;
+    word-spacing: 6px;
+    letter-spacing: 6px;
+    color: rgb(255, 0, 195);
+    background-color: blanchedalmond;
+    
+}
+
+
+.l{
+    font-size: 60px;
+    background-color: blanchedalmond;
+    height: 20vh;
+    color: rgb(5, 244, 117);
+}
+.h{
+    font-size: 25px;
+    background-color: blanchedalmond;
+    height: 9vh;
+    text-align: right;
+}
